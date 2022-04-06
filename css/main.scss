@@ -1,5 +1,181 @@
-// test
-body {
-    background-color: aquamarine;
-    color: black;
+/******************* header *******************/
+
+.text-sm {
+    font-size: 10px;
 }
+
+textarea:focus, input:focus, .btn:focus {
+    box-shadow: none !important;
+}
+
+.close, .clock {
+    width: 15px;
+    height: 15px;
+}
+
+// header
+header {
+    border-bottom: 1px solid #e7e7e7;
+
+    .profile-avatar {
+        background-color: rgb(185, 185, 185);
+    }
+    .logo-wrapper {
+        width: 260px;    
+    }
+
+    // serach
+    .search-wrapper {
+        max-width: 720px;
+        width: 250px;
+        padding: 2px 12px 2px 12px;
+        background-color: #f7f7f7;
+
+        input {
+            border: none; 
+            outline: none;
+            background-color: inherit;
+        }
+
+        input:focus {
+            background-color: inherit;
+        }
+    }
+
+    i {
+        font-size: 23px;
+        cursor: pointer;
+    }
+
+    .search-result {
+        left: 0;
+        top: 40px;
+        padding: 12px;
+        cursor: pointer;
+    }
+
+    .search-result-item:hover {
+        background-color: #ebebeb !important;
+    }
+
+    // profile
+    .profile-wrapper {
+        min-width: 80px;
+        width: 100px;
+        text-align: right;
+    }
+
+    .profile-menu {
+        width: 200px;
+        top:54px;
+        right: 0px;
+    }
+} 
+
+// left side nav
+.sidenav {
+    width: 260px;
+    // background-color: rgb(229, 229, 229);
+    &.small-sidenav {
+        width: auto;
+    }
+}
+
+
+.compose-button {
+    
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.emails-contegory {
+    .email-label {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+            background-color: #f7f7f7;
+        }
+    }
+
+    .mail-icon {
+        height: 18px;
+        width: 18px;
+    }
+}
+
+.labels {
+    margin-top: 20px;
+}
+
+
+/******************* emails-content *******************/
+.emails-content {
+    .star-icon {
+        width: 15px;
+        height: 15px;
+    }
+}
+.colapsed-email-item {
+    padding: 8px 5px;
+    cursor: pointer;
+    border-bottom: 1px solid lightgray;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.408);
+        color: inherit;
+    }
+
+    .label {
+        background: rgb(231, 231, 231);
+        padding: 0px 10px;
+        border-radius: 10px;
+        flex-shrink: 0;
+    }
+
+    .message-trim {
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/******************* compose email *******************/
+.compose-email-modal {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(182, 91, 91);
+    opacity: .7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .form-wrraper {
+        border: 1px solid lightgray;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.204);
+        padding: 10px;
+        max-width: 1100px;
+        width: 95%;
+        background: rgb(233, 182, 182);
+        opacity: 1;
+    }
+}
+
+
+/******************* header *******************/
+/******************* header *******************/
+/******************* header *******************/
+/******************* header *******************/
+/******************* header *******************/
+/******************* header *******************/
+/******************* header *******************/
+
+
+
